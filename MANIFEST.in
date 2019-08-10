@@ -1,0 +1,3 @@
+include README.md
+include sherlock/*.md
+include sherlock/*.json

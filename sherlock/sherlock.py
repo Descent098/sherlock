@@ -482,6 +482,7 @@ def main():
 
     # Try to load json from website.
     try:
+        print(f"trying URL: {args.json_file}")
         response_json_online = requests.get(url=args.json_file)
     except requests.exceptions.MissingSchema:  # In case the schema is wrong it's because it may not be a website
         pass

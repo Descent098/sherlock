@@ -18,7 +18,7 @@ long_description = read("README.md")
 
 
 
-setuptools.setup(
+setuptools.setup(include_package_data=True,
     name="sherlock",
     version="0.1.3",
     author="Siddharth Dushantha",
