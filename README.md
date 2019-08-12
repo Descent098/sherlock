@@ -1,3 +1,11 @@
+## My changes from upstream master
+
+Following changes made in my branch the script can be installed an run from anywhere following these steps:
+
+1. clone the repo ```git clone https://github.com/Descent098/sherlock```
+2. install with pip ```pip install .```
+3. run sherlock from anywhere using ```sherlock <args>```
+
 <p align=center>
   
   <img src="https://user-images.githubusercontent.com/27065646/53551960-ae4dff80-3b3a-11e9-9075-cef786c69364.png"/>
